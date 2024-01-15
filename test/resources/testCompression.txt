@@ -1,0 +1,15 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct command
+compress 50 test test-compress
+
+#incorrect value
+compress 1000 test test-compress
+
+#incorrect command
+compr 50 test test-compress
+
+#incorrect syntax
+compress test-brightbright test
+

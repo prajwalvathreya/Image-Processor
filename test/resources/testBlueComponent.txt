@@ -1,0 +1,14 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct command
+blue-component test test-blue
+
+#incorrect command
+blue-compo test test-blue
+
+#incorrect syntax
+blue-component test-blueblue test
+
+#incorrect syntax
+blue-component test

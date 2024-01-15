@@ -1,0 +1,18 @@
+load res/test/test.png test
+red-component test test-red
+green-component test test-green
+blue-component test test-blue
+intensity-component test husky-intensity
+luma-component husky husky-luma
+value-component husky husky-value
+sharpen husky husky-sharpen
+blur husky husky-blur
+brighten 50 husky husky-brighten-pos
+brighten -5 husky husky-brighten-neg
+darken 5 husky husky-darken-pos
+darken -50 husky husky-darken-neg
+sepia husky husky-sepia
+horizontal-flip husky husky-horizontal-flip
+vertical-flip husky husky-vertical-flip
+rgb-combine husky-combine husky-red husky-green husky-blue
+rgb-split husky husky-red-split husky-green-split husky-blue-split

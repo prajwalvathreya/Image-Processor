@@ -1,0 +1,28 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct commands
+blur test test-blur split 50
+
+sepia test test-sepia split 50
+
+sharpen test test-sharpen split 50
+
+greyscale test test-greyscale split 50
+
+color-correct test test-cc split 50
+
+level-adjust 10 50 150 test test-la split 50
+
+#incorrect commands
+blur test test-blur split -50
+
+sepia test test-sepia split -50
+
+sharpen test test-sharpen split 500
+
+greyscale test test-greyscale split 500
+
+color-correct test test-cc split 500
+
+level-adjust 10 50 150 test test-la split 500

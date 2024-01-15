@@ -1,0 +1,15 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct command
+brighten 50 test test-bright
+
+#correct command to darken the image
+brighten -50 test test-dark
+
+#incorrect command
+bright test test-bright
+
+#incorrect syntax
+brighten test-brightbright test
+

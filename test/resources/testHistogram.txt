@@ -1,0 +1,12 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct command
+histogram test test-histogram
+
+#incorrect command
+histogr test test-histogram
+
+#incorrect syntax
+histogram test
+

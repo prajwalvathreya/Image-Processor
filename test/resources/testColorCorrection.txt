@@ -1,0 +1,11 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct command
+color-correct test test-cc
+
+#incorrect command
+color test test-histogram
+
+#incorrect syntax
+color-correct test

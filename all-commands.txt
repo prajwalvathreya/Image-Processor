@@ -1,0 +1,74 @@
+load res/husky.png husky
+red-component husky husky-red
+green-component husky husky-green
+blue-component husky husky-blue
+intensity-component husky husky-intensity
+luma-component husky husky-luma
+value-component husky husky-value
+sharpen husky husky-sharpen
+blur husky husky-blur
+brighten 50 husky husky-brighten-pos
+brighten -5 husky husky-brighten-neg
+sepia husky husky-sepia
+horizontal-flip husky husky-horizontal-flip
+vertical-flip husky husky-vertical-flip
+rgb-combine husky-combine husky-red husky-green husky-blue
+rgb-split husky husky-red-split husky-green-split husky-blue-split
+compress 99 husky husky-compress-99
+compress 90 husky husky-compress-90
+histogram husky husky-histogram
+color-correct husky husky-color-correct
+histogram husky-color-correct husky-color-correct-histogram
+level-adjust 20 150 255 husky husky-level-adjust-1
+level-adjust 10 160 200 husky husky-level-adjust-2
+histogram husky-level-adjust-1 husky-level-adjust-histogram-1
+histogram husky-level-adjust-2 husky-level-adjust-histogram-2
+blur husky husky-blur-split-50 split 50
+sharpen husky husky-sharpen-split-80 split 80
+sepia husky husky-sepia-split-80 split 30
+color-correct husky husky-color-correct-split-50 split 50
+level-adjust 20 150 255 husky husky-level-adjust-split-50 split 50
+red-component husky husky-red-split-50 split 50
+blue-component husky husky-blue-split-80 split 80
+green-component husky husky-green-split-30 split 30
+luma-component husky husky-luma-component-split-50 split 50
+intensity-component husky husky-intensity-component-split-50 split 50
+value-component husky husky-value-component-split-50 split 50
+save res/husky-ppm.ppm husky
+save res/husky-red.png husky-red
+save res/husky-green.png husky-green
+save res/husky-blue.png husky-blue
+save res/husky-intensity.png husky-intensity
+save res/husky-luma.png husky-luma
+save res/husky-value.png husky-value
+save res/husky-sharpen.png husky-sharpen
+save res/husky-blur.png husky-blur
+save res/husky-brighten-pos.png husky-brighten-pos
+save res/husky-brighten-neg.png husky-brighten-neg
+save res/husky-sepia.png husky-sepia
+save res/husky-horizontal-flip.png husky-horizontal-flip
+save res/husky-vertical-flip.png husky-vertical-flip
+save res/husky-red-split.png husky-red-split
+save res/husky-green-split.png husky-green-split
+save res/husky-blue-split.png husky-blue-split
+save res/husky-combine.png husky-combine
+save res/husky-compress-99.png husky-compress-99
+save res/husky-compress-90.png husky-compress-90
+save res/husky-color-correct.png husky-color-correct
+save res/husky-level-adjust-20-150-255.png husky-level-adjust-1
+save res/husky-level-adjust-10-160-200.png husky-level-adjust-2
+save res/husky-level-adjust-histogram-20-150-255.png husky-level-adjust-histogram-1
+save res/husky-level-adjust-histogram-10-160-200.png husky-level-adjust-histogram-2
+save res/husky-blur-split-50.png husky-blur-split-50
+save res/husky-sharpen-split-80.png husky-sharpen-split-80
+save res/husky-sepia-split-80.png husky-sepia-split-80
+save res/husky-color-correct-split-50.png husky-color-correct-split-50
+save res/husky-level-adjust-split-50.png husky-level-adjust-split-50
+save res/husky-red-split-50.png husky-red-split-50
+save res/husky-blue-split-80.png husky-blue-split-80
+save res/husky-green-split-80.png husky-green-split-30
+save res/husky-luma-component-split-50.png husky-luma-component-split-50
+save res/husky-intensity-component-split-50.png husky-intensity-component-split-50
+save res/husky-value-component-split-50.png husky-value-component-split-50
+save res/husky-histogram.png husky-histogram
+save res/husky-color-correct-histogram.png husky-color-correct-histogram

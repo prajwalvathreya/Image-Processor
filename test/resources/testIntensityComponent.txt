@@ -1,0 +1,14 @@
+#load res/test/test.png and call it 'husky'
+load res/test/test.png husky
+
+#correct command
+intensity-component husky husky-intensity
+
+#incorrect command
+intensity-compo husky husky-intensity
+
+#incorrect syntax
+intensity-component husky-intensityintensity husky
+
+#incorrect syntax
+intensity-component husky

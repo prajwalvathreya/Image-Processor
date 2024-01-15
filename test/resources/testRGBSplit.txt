@@ -1,0 +1,11 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#perform RGB split correct command
+rgb-split test test-red test-green test-blue
+
+#incorrect command
+rgb-splt test test-red test-green test-blue
+
+#incorrect syntax
+rgb-split test test-green test-blue

@@ -1,0 +1,5 @@
+#load test/test.ppm and call it 'test'
+load res/test/test.png test
+
+#incorrce source image name provided
+brighten 10 huskie test-bright

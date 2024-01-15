@@ -1,0 +1,17 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+# correct command
+level-adjust 10 50 150 test test-adjust
+
+# incorrect command
+level 10 50 150 test test-adjust
+
+# incorrect levels
+level-adjust 50 40 150 test test-adjust
+
+# incorrect ranges
+level-adjust 10 50 256 test test-adjust
+
+# correct command
+level-adjust 10 150 test test-adjust

@@ -1,0 +1,14 @@
+#load res/test/test.png and call it 'husky'
+load res/test/test.png husky
+
+#correct command
+green-component husky husky-green
+
+#incorrect command
+green-compo husky husky-green
+
+#incorrect syntax
+green-component husky-greengreen husky
+
+#incorrect syntax
+green-component husky

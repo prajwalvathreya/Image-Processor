@@ -1,0 +1,5 @@
+#load test/test.ppm and call it 'test'
+load res/res/test/test.png test
+
+#save husky
+save res/test/test.ppm test

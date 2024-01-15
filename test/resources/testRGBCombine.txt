@@ -1,0 +1,14 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#perform RGB split to test combine
+rgb-split test test-red test-green test-blue
+
+#perforam RGB combine
+rgb-combine test-combined test-red test-green test-blue
+
+#incorrect command
+rgb-comb test-combined test-red test-green test-blue
+
+#incorrect syntax
+rgb-combine test-combined test-blue

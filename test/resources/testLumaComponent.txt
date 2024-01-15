@@ -1,0 +1,14 @@
+#load res/test/test.png and call it 'test'
+load res/test/test.png test
+
+#correct command
+luma-component test test-luma
+
+#incorrect command
+luma-compo test test-luma
+
+#incorrect syntax
+luma-component test-lumaluma test
+
+#incorrect syntax
+luma-component test

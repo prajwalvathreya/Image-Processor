@@ -1,0 +1,2 @@
+#load test/test.ppm and call it 'test'
+load res/test/test.png test

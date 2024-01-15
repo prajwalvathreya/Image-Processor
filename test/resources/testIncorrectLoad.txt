@@ -1,0 +1,5 @@
+#load test/test.ppm and call it 'husky'
+load husky husky
+
+#load test/test.ppm and call it 'husky'
+load res/test/test.png res/test/test.png
